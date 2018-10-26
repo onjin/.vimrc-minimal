@@ -22,6 +22,12 @@ set cursorline
 " show the matching part of the pair for [] {} and ()
 set showmatch
 
+" enable higligting search results
+set hlsearch
+
+" enable incremental search
+set incsearch
+
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
 
@@ -29,8 +35,7 @@ let python_highlight_all = 1
 set colorcolumn=80
 
 if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
