@@ -1,5 +1,6 @@
 # Minimal .vimrc configuration
 
+
 To quick start and edit on remote machines.
 
 At first start vim will auto install vim-plug https://github.com/junegunn/vim-plug
@@ -10,3 +11,7 @@ and a few plugins:
  * vim-airline/vim-airline - status line
  * junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } - fuzzy finder
  * junegunn/fzf.vim' - fuzzy finder vim plugin
+
+## Requirements
+
+You have to install `git` and `curl` to autoinstall and use package manager.

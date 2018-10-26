@@ -46,3 +46,4 @@ Plug 'junegunn/fzf.vim'
 call plug#end()
 
 let g:airline_powerline_fonts = 0 
+colorscheme elflord
