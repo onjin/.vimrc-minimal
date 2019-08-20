@@ -26,7 +26,6 @@ Auto instalation of plugin manager and base plugins should be done
 At first start vim will auto install vim-plug https://github.com/junegunn/vim-plug
 and a few plugins:
 
- * hynek/vim-python-pep8-indent - python autoindent compatible with pep8
  * editorconfig/editorconfig-vim - support for .editorconfig file
  * vim-airline/vim-airline - status line
  * junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } - fuzzy finder

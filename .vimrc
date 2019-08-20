@@ -28,9 +28,6 @@ set hlsearch
 " enable incremental search
 set incsearch
 
-" enable all Python syntax highlighting features
-let python_highlight_all = 1
-
 " 
 set colorcolumn=80
 
@@ -40,7 +37,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
-Plug 'hynek/vim-python-pep8-indent'
 Plug 'editorconfig/editorconfig-vim'                                                                                                                                                                           
 Plug 'vim-airline/vim-airline'                                                                                                                                                                                 
 
