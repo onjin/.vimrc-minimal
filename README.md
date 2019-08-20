@@ -1,7 +1,27 @@
 # Minimal .vimrc configuration
 
-
 To quick start and edit on remote machines.
+
+## Quickstart
+
+Ensure `curl` and `git` are  installed. They are required to perform autoinstall
+vim plugin manager.
+
+Then run:
+
+```
+curl https://raw.githubusercontent.com/onjin/.vimrc-minimal/master/.vimrc > .vimrc
+```
+
+and start vim.
+
+Auto instalation of plugin manager and base plugins should be done
+
+![screenshot](https://github.com/onjin/.vimrc-minimal/raw/master/screenshot.png "Screenshot")
+
+
+
+## Details
 
 At first start vim will auto install vim-plug https://github.com/junegunn/vim-plug
 and a few plugins:
